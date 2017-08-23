@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("global","",233,261);
+$z[0][4]['name']="cfg_soft_lang";
+$z[1]=Array("field","",273,292);
+$z[1][4]['name']="title";
+$z[2]=Array("global","",293,319);
+$z[2][4]['name']="cfg_webname";
+$z[3]=Array("field","",359,388);
+$z[3][4]['name']="keywords";
+$z[4]=Array("field","",427,485);
+$z[4][4]['name']="description";
+$z[4][4]['function']="html2text(@me)";
+$z[5]=Array("global","",502,534);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",663,691);
+$z[6][4]['name']="cfg_mobileurl";
+$z[7]=Array("field","",705,721);
+$z[7][4]['name']="id";
+$z[8]=Array("global","",1189,1217);
+$z[8][4]['name']="cfg_mobileurl";
+$z[9]=Array("field","",1231,1247);
+$z[9][4]['name']="id";
+$z[10]=Array("include","",1355,1390);
+$z[10][4]['filename']="head.htm";
+$z[11]=Array("arclistsg","\n         <li><a href=\"[field:arcurl/]\"><img src='[field:litpic/]' width='124px' height='94px'/><span class=\"title\">[field:title/]</span></a></li>\n         ",1585,1805);
+$z[11][4]['row']="5";
+$z[11][4]['orderby']="pubdate";
+$z[11][4]['flag']="p";
+$z[12]=Array("channelartlist","\n   <dl class=\"tbox\">\n        <dt><strong><a href=\"{dede:field name='typeurl'/}\">{dede:field name='typename'/}</a></strong><span class=\"more\"><a href=\"{dede:field name='typeurl'/}\">更多...</a></span></dt>\n        <dd>\n          <ul class=\"d1 ico3\">\n          {dede:arclistsg titlelen='60' row='8'}\n            <li><a href=\"[field:arcurl /]\">[field:title /]</a></li>\n          {/dede:arclistsg}\n          </ul>\n        </dd>\n    </dl>\n",1883,2362);
+$z[13]=Array("channel","\n		<li><a href='[field:typeurl/]'>[field:typename/]</a></li>",2582,2760);
+$z[13][4]['type']="son";
+$z[13][4]['currentstyle']="<li><a href='~typelink~' class='thisclass'>~typename~</a></li>";
+$z[14]=Array("infoguide","\n                    <form name='infoguide' method='get' action='/plus/list.php'>\n                    [field:nativeplace /]\n                    [field:infotype /]\n                    <input type='hidden' name='tid' value='[field:typeid /]' />\n                    <input type='hidden' name='channelid' value='-8' />\n                    <span class='infosearchtxt'>关键字：</span><span><input type='text' name='keyword' value='' class=\"ipt-txt\" /></span>\n                    <input type='submit' value='搜索信息' class=\"btn-2\" style='cursor:pointer' />\n                    &nbsp;\n                    <input type='button' value='发布信息' class=\"btn-2\" \n                    onclick=\"location='/member/archives_sg_add.php?channelid=-8';\" style='cursor:pointer' />\n                    </form>\n                ",2931,3780);
+$z[15]=Array("arclistsg","\n          	 <li><span>[[field:typename/]]</span><a href=\"[field:arcurl/]\">[field:title/]</a></li>\n             ",3961,4125);
+$z[15][4]['titlelen']="42";
+$z[15][4]['row']="12";
+$z[16]=Array("mda","",4230,4260);
+$z[16][4]['name']="250x250_SSP";
+$z[17]=Array("arclistsg","\n                     <li><span>[[field:typename/]]</span><a href=\"[field:arcurl/]\">[field:title/]</a></li>\n                    ",4418,4600);
+$z[17][4]['row']="12";
+$z[17][4]['orderby']="click";
+$z[18]=Array("mda","",4727,4752);
+$z[18][4]['name']="728x90";
+$z[19]=Array("include","",4759,4796);
+$z[19][4]['filename']="footer.htm";
+
+?>
