@@ -1,0 +1,105 @@
+/**
+ * ---------------------------------------------
+ *      reset样式
+ * 
+ *      author : zhict
+ *      date   : 2016-09-28 10:20:22
+ * ---------------------------------------------
+ */
+ html,body {
+  height: 100%;
+}
+blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul,menu,dir {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px/150%;
+  font-size: 12px;
+  font-family: "Microsoft Yahei",Arial;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,img {
+  border: 0;
+}
+
+p {
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-style: normal;
+  font-weight: 400;
+}
+
+caption,th {
+  text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+abbr,acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,select,textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input,select {
+  border:0;
+  outline:0px;
+}
+
+legend {
+  color: #000;
+}
+
+a {
+  outline: 0;
+  cursor: pointer;
+}
+
+a:active,a:hover,a:link,a:visited {
+  text-decoration: none;
+}
+
+li,ol,ul {
+  list-style: none;
+}
+
+blockquote,q {
+  quotes: none;
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+  content: '';
+  content: none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,div {
+  display: block;
+}
