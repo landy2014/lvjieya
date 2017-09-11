@@ -67,7 +67,7 @@
 /* 头部 */
 .header {
   min-height: 86px;
-  background: url(./img/header_bg.jpg) center no-repeat;
+  background: url(../images/index/header_bg.jpg) center no-repeat;
   &__logo {
     float: left;
     width: 150px;
@@ -190,7 +190,7 @@
     font-size: 14px;
     color: #fff;
     text-align: center;
-    background: url(./img/more_btn.jpg) center no-repeat;
+    background: url(../images/index/more_btn.jpg) center no-repeat;
   }
 }
 /* 我们的服务区域 */
@@ -231,7 +231,7 @@
   &__item-1 {
     .reason__sub-tit {
       &:before {
-        background: url(./img/leaf.jpg) center no-repeat;
+        background: url(../images/index/leaf.jpg) center no-repeat;
       }
     }
   }
@@ -245,14 +245,14 @@
     }
     .reason__sub-tit {
       &:before {
-        background: url(./img/quality.jpg) center no-repeat;
+        background: url(../images/index/quality.jpg) center no-repeat;
       }
     }
   }
   &__item-3 {
     .reason__sub-tit {
       &:before {
-        background: url(./img/medal.jpg) center no-repeat;
+        background: url(../images/index/medal.jpg) center no-repeat;
       }
     }
   }
@@ -329,7 +329,7 @@
   min-height: 540px;
   background: #f2f3f3;
   text-align: center;
-  background: url(./img/floor_bg.jpg) center repeat;
+  background: url(../images/index/floor_bg.jpg) center repeat;
   &__list {
     margin-top: 55px;
     font-size: 0;
@@ -373,7 +373,7 @@
     margin-right: 2px;
     width: 25px;
     height: 25px;
-    background: url(./img/star.png) center no-repeat;
+    background: url(../images/index/star.png) center no-repeat;
   }
 }
 /* 合作伙伴 */
