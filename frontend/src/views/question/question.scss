@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*-----------------
+ * zhangzhensheng
+ * 2017-09-13
+ *-----------------*/
+@import '../../widgets/common';
+@import '../../widgets/top';
+@import '../../widgets/header';
+@import '../../widgets/footer';
+@import '../../widgets/cate';
+@import '../../widgets/address';
+@import '../../widgets/main-slider';
+@import '../../widgets/title';
+@import '../../widgets/page';
+
+/* 焦点图 */
+.main-slider {
+  min-height: 220px;
+}
+/* Q&A */
+.question {
+  margin-top: 50px;
+  &__left {
+    float: left;
+  }
+  &__right {
+    box-sizing: border-box;
+    padding-left: 60px;
+    float: right;
+    width: 768px;
+  }
+  &__ct {
+    margin-top: 35px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .list {
+    margin-bottom: 60px;
+  }
+  &__ask {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 4px; 
+    padding:0 10px;
+    border: 1px solid #29c077;
+    border-radius: 4px;
+    height: 44px;
+    line-height: 42px;
+    color: #29c077;
+    font-size: 16px;
+    text-align: center;
+  }
+  &__answer {
+    box-sizing: border-box;
+    padding:0 10px;
+    font-size: 14px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    span {
+      color: #29c077;
+    }
+    em {
+      color: #fc0808;
+    }
+  }
+}

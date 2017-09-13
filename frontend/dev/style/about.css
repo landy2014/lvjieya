@@ -124,28 +124,30 @@
     .main-slider__hd-li.on {
       background: #fea82c; }
 
+/* 模块标题 */
+.main-tt h1 {
+  color: #26292b;
+  font-size: 30px;
+  line-height: 40px; }
+
+.main-tt span {
+  color: #26292b;
+  font-size: 14px;
+  line-height: 40px; }
+  .main-tt span:before {
+    content: '|';
+    margin-right: 10px; }
+  .main-tt span:after {
+    content: '|';
+    margin-left: 10px; }
+
 /* 焦点图 */
 .main-slider {
   min-height: 220px; }
 
 /* 关于我们 */
 .about {
-  /* 模块标题 */
   margin-top: 50px; }
-  .about .main-tt h1 {
-    color: #26292b;
-    font-size: 30px;
-    line-height: 40px; }
-  .about .main-tt span {
-    color: #26292b;
-    font-size: 14px;
-    line-height: 40px; }
-    .about .main-tt span:before {
-      content: '|';
-      margin-right: 10px; }
-    .about .main-tt span:after {
-      content: '|';
-      margin-left: 10px; }
   .about__left {
     float: left; }
   .about__right {

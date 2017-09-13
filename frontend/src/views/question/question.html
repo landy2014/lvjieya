@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  @@include("head.html", { "title": "Q&A | 绿洁雅", "cssname": "question" })
+</head>
+
+<body>
+  <!-- 顶部 -->
+  @@include("top.html")
+  <!-- 头部 -->
+  @@include("header.html", { "nav" : 7 })
+  <!-- 焦点图 -->
+  <section class="main-slider">
+    <div class="mid-wrap">
+      <div class="main-slider__ct">
+        <div class="main-slider__bd">
+          <ul>
+            <li class="main-slider__item"><a href=""><img src="./images/index/slider_01.jpg" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="main-slider__hd">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 荣誉资质 -->
+  <section class="question clearfix">
+    <div class="mid-wrap">
+      <div class="question__left">
+        <!-- 联系我们 -->
+        @@include('address.html')
+      </div>
+      <!-- 荣誉资质 -->
+      <div class="question__right">
+        <div class="main-tt">
+          <h1>Q&A</h1>
+          <span>question & answer</span>
+        </div>
+        <div class="question__ct">
+          <ul class="list">
+            <li class="item">
+              <div class="question__ask"><span>Q：</span>我家装修材料都是用的环保材料，甲醛还会超标？</div>
+              <div class="question__answer"><span>A：</span>1、环保材料是指满足了污染物的最低排放标准，而室内甲醛超标检测的是空气中游离的甲醛，所以这是两个完全不一样的概念。2、几种环保材料在室内，释放的甲醛、苯等有害物质叠加在一起，即使单个产品达标，但室内装修污染仍会超标。</div>
+            </li>
+            <li class="item">
+              <div class="question__ask"><span>Q：</span>我家装修材料都是用的环保材料，甲醛还会超标？</div>
+              <div class="question__answer"><span>A：</span>我们公司有四种产品：光触媒全味净、除醛王、除味剂、装修除味剂。针对不同家私用不同的产品来喷涂分解里面的有毒气体。产品原理是通过渗透性吸附分解与甲醛等有害气体发生反应，分解成二氧化碳和水蒸发掉，不会造成任何二次污染。<em>不仅可以一次性从源头清除治理有害物而且纳米晶光触媒技术还可以持久保护，</em></div>
+            </li>
+            <li class="item">
+              <div class="question__ask"><span>Q：</span>你们公司用什么来除甲醛？</div>
+              <div class="question__answer"><span>A：</span>1、环保材料是指满足了污染物的最低排放标准，而室内甲醛超标检测的是空气中游离的甲醛，所以这是两个完全不一样的概念。2、几种环保材料在室内，释放的甲醛、苯等有害物质叠加在一起，即使单个产品达标，但室内装修污染仍会超标。</div>
+            </li>
+          </ul>
+          @@include('page.html')
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 底部 -->
+  @@include("footer.html")
+  <!-- script -->
+  @@include("script.html", { "jsname": "question"})
+</body>
+
+</html>
