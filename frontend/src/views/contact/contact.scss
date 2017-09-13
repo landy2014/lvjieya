@@ -10,6 +10,7 @@
 @import '../../widgets/footer';
 @import '../../widgets/address';
 @import '../../widgets/main-slider';
+@import '../../widgets/title';
 
 /* 焦点图 */
 .main-slider {
@@ -17,7 +18,6 @@
 }
 /* 联系我们 */
 .contact {
-  @import '../../widgets/title';
   margin-top: 50px;
   &__left {
     float: left;

@@ -81,6 +81,7 @@
   line-height: 72px;
   clear: both; }
 
+/* 联系我们 */
 .address {
   box-shadow: 0 0 10px #e3e3e3;
   box-sizing: border-box;
@@ -129,19 +130,20 @@
 
 /* 关于我们 */
 .about {
+  /* 模块标题 */
   margin-top: 50px; }
-  .about__tt h1 {
+  .about .main-tt h1 {
     color: #26292b;
     font-size: 30px;
     line-height: 40px; }
-  .about__tt span {
+  .about .main-tt span {
     color: #26292b;
     font-size: 14px;
     line-height: 40px; }
-    .about__tt span:before {
+    .about .main-tt span:before {
       content: '|';
       margin-right: 10px; }
-    .about__tt span:after {
+    .about .main-tt span:after {
       content: '|';
       margin-left: 10px; }
   .about__left {

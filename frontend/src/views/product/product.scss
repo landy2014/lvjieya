@@ -8,16 +8,18 @@
 @import '../../widgets/top';
 @import '../../widgets/header';
 @import '../../widgets/footer';
+@import '../../widgets/cate';
 @import '../../widgets/address';
 @import '../../widgets/main-slider';
 @import '../../widgets/title';
+@import '../../widgets/page';
 
 /* 焦点图 */
 .main-slider {
   min-height: 220px;
 }
-/* 关于我们 */
-.about {
+/* 产品中心 */
+.product {
   margin-top: 50px;
   &__left {
     float: left;
@@ -33,12 +35,33 @@
     font-size: 16px;
     line-height: 30px;
   }
+  &__list {
+    font-size: 0;
+  }
   &__item {
-    margin-bottom: 60px;
+    display: inline-block;
+    margin-right: 32px;
+    margin-bottom: 42px;
+    box-shadow: 0 0 10px #e3e3e3;
+    border: 1px solid #f3f3f3;
+    width: 311px;
+    height: 230px;
+    line-height: 50px;
+    vertical-align: bottom;
+    font-size: 16px;
     img {
-      margin-top: 22px;
-      width: 100%;
+      width: 311px;
+      height: 174px;
       vertical-align: bottom;
+    }
+    span {
+      display: inline-block;
+      width: 311px;
+      text-indent: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #000;
     }
   }
 }
