@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  @@include("head.html", { "title": "联系我们 | 绿洁雅", "cssname": "contact" })
+</head>
+
+<body>
+  <!-- 顶部 -->
+  @@include("top.html")
+  <!-- 头部 -->
+  @@include("header.html", { "nav" : 3 })
+  <!-- 焦点图 -->
+  <section class="main-slider">
+    <div class="mid-wrap">
+      <div class="main-slider__ct">
+        <div class="main-slider__bd">
+          <ul>
+            <li class="main-slider__item"><a href=""><img src="./images/index/slider_01.jpg" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="main-slider__hd">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 关于绿洁雅 -->
+  <section class="contact clearfix">
+    <div class="mid-wrap">
+      <!-- 联系我们 -->
+      <div class="contact__left">
+        @@include('address.html')
+      </div>
+      <!-- 关于绿洁雅 -->
+      <div class="contact__right">
+        <div class="contact__tt">
+          <h1>联系我们</h1>
+          <span>CONTACT US</span>
+        </div>
+        <div class="contact__ct">
+          <div class="contact__photo"><img src="./images/index/slider_01.jpg" alt=""></div>
+          <div class="contact__detail">
+              <h3>联系绿洁雅</h3>
+              广州绿洁雅环保科技有限公司<br/>
+              总部咨询热线：4006-128-328<br/>
+              总部电话：020-82037724<br/>
+              总部传真：<br/>
+              总部手机：18026296178<br/>
+              总部邮箱：50353272@qq.com<br/>
+              总部地址：广州市天河区东圃创境汇盈科智谷15座A06<br/>               
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 底部 -->
+  @@include("footer.html")
+  <!-- script -->
+  @@include("script.html", { "jsname": "contact"})
+</body>
+
+</html>

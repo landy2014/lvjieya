@@ -15,8 +15,8 @@
 .main-slider {
   min-height: 220px;
 }
-/* 关于我们 */
-.about {
+/* 联系我们 */
+.contact {
   @import '../../widgets/title';
   margin-top: 50px;
   &__left {
@@ -33,12 +33,26 @@
     font-size: 16px;
     line-height: 30px;
   }
-  &__item {
-    margin-bottom: 60px;
+  &__photo {
+    float: left;
+    width: 309px;
+    height: 233px;
     img {
-      margin-top: 22px;
       width: 100%;
       vertical-align: bottom;
     }
+  }
+  &__detail {
+    float: right;
+    box-sizing: border-box;
+    padding-left: 30px;
+    width: 399px;
+    font-size: 14px;
+    line-height: 36px;
+    h3 {
+      margin-top: -10px;
+      color: #29c077;
+      font-size: 16px;
+    }    
   }
 }

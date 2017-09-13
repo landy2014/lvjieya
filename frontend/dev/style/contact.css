@@ -127,37 +127,49 @@
 .main-slider {
   min-height: 220px; }
 
-/* 关于我们 */
-.about {
+/* 联系我们 */
+.contact {
   margin-top: 50px; }
-  .about__tt h1 {
+  .contact__tt h1 {
     color: #26292b;
     font-size: 30px;
     line-height: 40px; }
-  .about__tt span {
+  .contact__tt span {
     color: #26292b;
     font-size: 14px;
     line-height: 40px; }
-    .about__tt span:before {
+    .contact__tt span:before {
       content: '|';
       margin-right: 10px; }
-    .about__tt span:after {
+    .contact__tt span:after {
       content: '|';
       margin-left: 10px; }
-  .about__left {
+  .contact__left {
     float: left; }
-  .about__right {
+  .contact__right {
     box-sizing: border-box;
     padding-left: 60px;
     float: right;
     width: 768px; }
-  .about__ct {
+  .contact__ct {
     margin-top: 35px;
     font-size: 16px;
     line-height: 30px; }
-  .about__item {
-    margin-bottom: 60px; }
-    .about__item img {
-      margin-top: 22px;
+  .contact__photo {
+    float: left;
+    width: 309px;
+    height: 233px; }
+    .contact__photo img {
       width: 100%;
       vertical-align: bottom; }
+  .contact__detail {
+    float: right;
+    box-sizing: border-box;
+    padding-left: 30px;
+    width: 399px;
+    font-size: 14px;
+    line-height: 36px; }
+    .contact__detail h3 {
+      margin-top: -10px;
+      color: #29c077;
+      font-size: 16px; }
