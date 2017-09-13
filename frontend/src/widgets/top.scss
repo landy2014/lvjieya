@@ -1,0 +1,29 @@
+/* 顶部 */
+.top {
+  min-height: 54px;
+  &__ct {
+    line-height: 54px;
+    font-size: 14px;
+    background: #fff;
+    color: #26292b;
+  }
+  &__tit {
+    font-size: 16px;
+  }
+  &__contact {
+    margin-right: 16px;
+    font-size: 24px;
+    font-family: 'Impact';
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #29c077;
+    vertical-align: middle;
+  }
+  &__home {
+    float: right;
+    color: #26292b;
+    &:hover {
+      color: #29c077;
+    }
+  }
+}

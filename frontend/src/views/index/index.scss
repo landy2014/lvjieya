@@ -4,6 +4,9 @@
  * zhangzhensheng
  * 2017-09-01
  *-----------------*/
+@import '../../widgets/top';
+@import '../../widgets/header';
+@import '../../widgets/footer';
 
 .mid-wrap {
   margin: 0 auto;
@@ -35,72 +38,9 @@
     }
   }
 }
-/* 顶部 */
-.top {
-  min-height: 54px;
-  &__ct {
-    line-height: 54px;
-    font-size: 14px;
-    background: #fff;
-    color: #26292b;
-  }
-  &__tit {
-    font-size: 16px;
-  }
-  &__contact {
-    margin-right: 16px;
-    font-size: 24px;
-    font-family: 'Impact';
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #29c077;
-    vertical-align: middle;
-  }
-  &__home {
-    float: right;
-    color: #26292b;
-    &:hover {
-      color: #29c077;
-    }
-  }
-}
 /* 头部 */
 .header {
-  min-height: 86px;
-  background: url(../images/index/header_bg.jpg) center no-repeat;
-  &__logo {
-    float: left;
-    width: 150px;
-    height: 86px;
-  }
-  &__nav {
-    float: right;
-    font-size: 0;
-  }
-  &__nav-item {
-    display: inline-block;
-    margin: 30px 30px 0;
-    font-size: 14px;
-    padding-bottom: 18px;
-    &.on {
-      border-bottom: 2px solid #29c077;
-      a {
-        color: #29c077;
-      }
-    }
-    &:hover {
-      border-bottom: 2px solid #29c077;
-      a {
-        color: #29c077;
-      }
-    }
-  }
-  a {
-    color: #333;
-    &:hover {
-      color: #29c077;
-    }
-  }
+  background: url(../images/index/header_bg.jpg) center no-repeat;  
 }
 /* 焦点图 */
 .main-slider {
@@ -399,13 +339,4 @@
       vertical-align: middle;
     }
   }
-}
-/* 底部 */
-.footer {
-  min-height: 72px;
-  background: #2a2a2a;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-  line-height: 72px;
 }

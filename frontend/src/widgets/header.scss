@@ -1,0 +1,37 @@
+/* 头部 */
+.header {
+  min-height: 86px;
+  &__logo {
+    float: left;
+    width: 150px;
+    height: 86px;
+  }
+  &__nav {
+    float: right;
+    font-size: 0;
+  }
+  &__nav-item {
+    display: inline-block;
+    margin: 30px 30px 0;
+    font-size: 14px;
+    padding-bottom: 18px;
+    &.on {
+      border-bottom: 2px solid #29c077;
+      a {
+        color: #29c077;
+      }
+    }
+    &:hover {
+      border-bottom: 2px solid #29c077;
+      a {
+        color: #29c077;
+      }
+    }
+  }
+  a {
+    color: #333;
+    &:hover {
+      color: #29c077;
+    }
+  }
+}
