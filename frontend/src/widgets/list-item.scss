@@ -1,0 +1,30 @@
+.list {
+  font-size: 0;
+  .item {
+    display: inline-block;
+    margin-right: 32px;
+    margin-bottom: 42px;
+    padding: 10px;
+    box-shadow: 0 0 10px #e3e3e3;
+    box-sizing: border-box;
+    border: 1px solid #f3f3f3;
+    width: 313px;
+    height: 232px;
+    line-height: 50px;
+    vertical-align: bottom;
+    font-size: 16px;
+    img {
+      width: 287px;
+      height: 161px;
+      vertical-align: bottom;
+    }
+    span {
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #000;
+    }
+  }
+}

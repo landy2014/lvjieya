@@ -18,8 +18,8 @@
 .main-slider {
   min-height: 220px;
 }
-/* 产品中心 */
-.product {
+/* 荣誉资质 */
+.honor {
   margin-top: 50px;
   &__left {
     float: left;
@@ -36,4 +36,18 @@
     line-height: 30px;
   }
   @import '../../widgets/list-item';
+  // 针对该页面对list-item调整
+  .list {
+    .item {
+      margin-bottom: 68px;
+      padding: 0;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      span {
+        text-align: center;
+      }
+    }
+  }
 }

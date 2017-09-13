@@ -237,23 +237,23 @@
 .main-slider {
   min-height: 220px; }
 
-/* 案例中心 */
-.project {
+/* 荣誉资质 */
+.honor {
   margin-top: 50px; }
-  .project__left {
+  .honor__left {
     float: left; }
-  .project__right {
+  .honor__right {
     box-sizing: border-box;
     padding-left: 60px;
     float: right;
     width: 768px; }
-  .project__ct {
+  .honor__ct {
     margin-top: 35px;
     font-size: 16px;
     line-height: 30px; }
-  .project .list {
+  .honor .list {
     font-size: 0; }
-    .project .list .item {
+    .honor .list .item {
       display: inline-block;
       margin-right: 32px;
       margin-bottom: 42px;
@@ -266,14 +266,22 @@
       line-height: 50px;
       vertical-align: bottom;
       font-size: 16px; }
-      .project .list .item img {
+      .honor .list .item img {
         width: 287px;
         height: 161px;
         vertical-align: bottom; }
-      .project .list .item span {
+      .honor .list .item span {
         display: inline-block;
         width: 100%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
         color: #000; }
+  .honor .list .item {
+    margin-bottom: 68px;
+    padding: 0; }
+    .honor .list .item img {
+      width: 100%;
+      height: 100%; }
+    .honor .list .item span {
+      text-align: center; }

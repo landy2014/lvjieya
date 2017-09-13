@@ -2,14 +2,14 @@
 <html lang="zh-CN">
 
 <head>
-  @@include("head.html", { "title": "产品中心 | 绿洁雅", "cssname": "product" })
+  @@include("head.html", { "title": "荣誉资质 | 绿洁雅", "cssname": "honor" })
 </head>
 
 <body>
   <!-- 顶部 -->
   @@include("top.html")
   <!-- 头部 -->
-  @@include("header.html", { "nav" : 4 })
+  @@include("header.html", { "nav" : 6 })
   <!-- 焦点图 -->
   <section class="main-slider">
     <div class="mid-wrap">
@@ -25,25 +25,25 @@
       </div>
     </div>
   </section>
-  <!-- 产品中心 -->
-  <section class="product clearfix">
+  <!-- 荣誉资质 -->
+  <section class="honor clearfix">
     <div class="mid-wrap">
-      <div class="product__left">
-        <!-- 分类 -->
-        @@include('cate.html', { "cate_on": "建筑类产品", "cate": ["汽车内产品","汽车内产品","汽车内产品","汽车内产品"] })
+      <div class="honor__left">
         <!-- 联系我们 -->
         @@include('address.html')
       </div>
-      <!-- 产品中心 -->
-      <div class="product__right">
+      <!-- 荣誉资质 -->
+      <div class="honor__right">
         <div class="main-tt">
-          <h1>产品中心</h1>
-          <span>PRODUCT</span>
+          <h1>荣誉资质</h1>
+          <span>HONOR</span>
         </div>
-        <div class="product__ct">
-          <!-- 产品 -->
-          @@include('list-item.html', { "img_url":["./images/index/slider_01.jpg","./images/index/slider_01.jpg"], "text":["光触媒全净味","绿洁雅除醛王"]})
-          <!-- 分页 -->
+        <div class="honor__ct">
+          <ul class="honor__list">
+            <!-- 案例 -->
+            @@include('list-item.html', { "img_url":["./images/index/slider_01.jpg","./images/index/slider_01.jpg","./images/index/slider_01.jpg","./images/index/slider_01.jpg","./images/index/slider_01.jpg"],
+            "text":["资质证书","资质证书","资质证书","资质证书","资质证书"]})
+          </ul>
           @@include('page.html')
         </div>
       </div>
@@ -52,7 +52,7 @@
   <!-- 底部 -->
   @@include("footer.html")
   <!-- script -->
-  @@include("script.html", { "jsname": "product"})
+  @@include("script.html", { "jsname": "honor"})
 </body>
 
 </html>

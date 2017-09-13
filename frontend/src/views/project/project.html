@@ -30,10 +30,7 @@
     <div class="mid-wrap">
       <div class="project__left">
         <!-- 分类 -->
-        @@include('cate.html', {
-          "cate_on": "办公工程案例",
-          "cate": ["酒店工程案例","政府工程案例","学校工程案例","汽车工程案例"]
-        })
+        @@include('cate.html', { "cate_on": "办公工程案例", "cate": ["酒店工程案例","政府工程案例","学校工程案例","汽车工程案例"] })
         <!-- 联系我们 -->
         @@include('address.html')
       </div>
@@ -45,13 +42,9 @@
         </div>
         <div class="project__ct">
           <ul class="project__list">
-            @@loop('list-item.html', [
-              { "img_url": "./images/index/slider_01.jpg", "text": "绿洁雅-浦发银行" },
-              { "img_url": "./images/index/slider_01.jpg", "text": "绿洁雅-汽车去甲醛" },
-              { "img_url": "./images/index/slider_01.jpg", "text": "绿洁雅-富德生命人寿" },
-              { "img_url": "./images/index/slider_01.jpg", "text": "绿洁雅-家庭去甲醛" },
-              { "img_url": "./images/index/slider_01.jpg", "text": "绿洁雅-明志教育" }
-            ])
+            <!-- 案例 -->
+            @@include('list-item.html', { "img_url":["./images/index/slider_01.jpg","./images/index/slider_01.jpg","./images/index/slider_01.jpg","./images/index/slider_01.jpg","./images/index/slider_01.jpg"],
+            "text":["绿洁雅-浦发银行","绿洁雅-汽车去甲醛","绿洁雅-富德生命人寿","绿洁雅-家庭去甲醛","绿洁雅-明志教育"]})
           </ul>
           @@include('page.html')
         </div>
