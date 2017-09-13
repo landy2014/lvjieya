@@ -1,0 +1,22 @@
+/* 主体居中 */
+.mid-wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+/* 清除浮动 */
+.clearfix {
+  *zoom: 1;
+  &:after {  
+    content: "";  
+    display: table;  
+    line-height: 0;  
+  }
+  &:after {  
+    clear: both; 
+  }
+}
+
+
+
+
+

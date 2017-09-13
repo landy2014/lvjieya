@@ -3,6 +3,10 @@
  * zhangzhensheng
  * 2017-09-01
  *-----------------*/
+.mid-wrap {
+  margin: 0 auto;
+  width: 1000px; }
+
 /* 顶部 */
 .top {
   min-height: 54px; }
@@ -64,10 +68,6 @@
   font-size: 14px;
   line-height: 72px; }
 
-.mid-wrap {
-  margin: 0 auto;
-  width: 1000px; }
-
 /* 楼层标题 */
 .floor__tit {
   display: inline-block;
@@ -97,30 +97,34 @@
 /* 焦点图 */
 .main-slider {
   min-height: 664px; }
-  .main-slider__ct {
-    position: relative; }
-    .main-slider__ct img {
-      position: relative;
-      left: -640px;
-      margin-left: 50%;
-      vertical-align: middle; }
-  .main-slider__hd {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 40px;
-    margin: auto;
-    text-align: center;
-    font-size: 0; }
-  .main-slider__hd-li {
-    display: inline-block;
-    margin: 0 13px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #fff; }
-    .main-slider__hd-li.on {
-      background: #fea82c; }
+
+/* 焦点图 */
+.main-slider__ct {
+  position: relative; }
+  .main-slider__ct img {
+    position: relative;
+    left: -640px;
+    margin-left: 50%;
+    vertical-align: middle; }
+
+.main-slider__hd {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  margin: auto;
+  text-align: center;
+  font-size: 0; }
+
+.main-slider__hd-li {
+  display: inline-block;
+  margin: 0 13px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff; }
+  .main-slider__hd-li.on {
+    background: #fea82c; }
 
 /* 我们能够解决什么 */
 .ability {

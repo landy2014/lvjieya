@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*-----------------
+ * zhangzhensheng
+ * 2017-09-13
+ *-----------------*/
+@import '../../widgets/common';
+@import '../../widgets/top';
+@import '../../widgets/header';
+@import '../../widgets/footer';
+
+/* 焦点图 */
+.main-slider {
+  min-height: 220px;
+}
+@import '../../widgets/main-slider'; 
+/* 联系我们 */
+.about {
+  @import '../../widgets/title';
+  margin-top: 50px;
+  &__left {
+    float: left;
+  }
+  &__contact {
+    box-shadow: 0 0 10px #e3e3e3;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    border: 1px solid #f3f3f3;
+    width: 232px;
+    height: 358px;
+    font-size: 14px;
+    line-height: 30px;
+    h3 {
+      margin-bottom: 10px;
+      color: #29c077;
+      font-size: 22px;
+    }
+  }
+  &__right {
+    box-sizing: border-box;
+    padding-left: 60px;
+    float: right;
+    width: 768px;
+  }
+  &__ct {
+    margin-top: 35px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  &__item {
+    margin-bottom: 60px;
+    img {
+      margin-top: 22px;
+      width: 100%;
+      vertical-align: bottom;
+    }
+  }
+}

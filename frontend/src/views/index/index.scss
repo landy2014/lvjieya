@@ -4,14 +4,11 @@
  * zhangzhensheng
  * 2017-09-01
  *-----------------*/
+@import '../../widgets/common';
 @import '../../widgets/top';
 @import '../../widgets/header';
 @import '../../widgets/footer';
 
-.mid-wrap {
-  margin: 0 auto;
-  width: 1000px;
-}
 /* 楼层标题 */
 .floor {
   &__tit {
@@ -45,36 +42,8 @@
 /* 焦点图 */
 .main-slider {
   min-height: 664px;
-  &__ct {
-    position: relative;
-    img {
-      position: relative;
-      left: -640px;
-      margin-left: 50%;
-      vertical-align: middle;
-    }
-  }
-  &__hd {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 40px;
-    margin: auto;
-    text-align: center;
-    font-size: 0;
-  }
-  &__hd-li {
-    display: inline-block;
-    margin: 0 13px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #fff;
-    &.on {
-      background: #fea82c;
-    }
-  }
 }
+@import '../../widgets/main-slider';
 /* 我们能够解决什么 */
 .ability {
   min-height: 380px;
