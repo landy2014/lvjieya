@@ -237,23 +237,23 @@
 .main-slider {
   min-height: 220px; }
 
-/* 产品中心 */
-.product {
+/* 案例中心 */
+.project {
   margin-top: 50px; }
-  .product__left {
+  .project__left {
     float: left; }
-  .product__right {
+  .project__right {
     box-sizing: border-box;
     padding-left: 60px;
     float: right;
     width: 768px; }
-  .product__ct {
+  .project__ct {
     margin-top: 35px;
     font-size: 16px;
     line-height: 30px; }
-  .product__list {
+  .project__list {
     font-size: 0; }
-  .product .item {
+  .project .item {
     display: inline-block;
     margin-right: 32px;
     margin-bottom: 42px;
@@ -266,11 +266,11 @@
     line-height: 50px;
     vertical-align: bottom;
     font-size: 16px; }
-    .product .item img {
+    .project .item img {
       width: 287px;
       height: 161px;
       vertical-align: bottom; }
-    .product .item span {
+    .project .item span {
       display: inline-block;
       width: 100%;
       overflow: hidden;
