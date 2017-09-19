@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/*-----------------
+ * zhangzhensheng
+ * 2017-09-13
+ *-----------------*/
+@import '../../widgets/common';
+@import '../../widgets/top';
+@import '../../widgets/header';
+@import '../../widgets/footer';
+@import '../../widgets/cate';
+@import '../../widgets/address';
+@import '../../widgets/main-slider';
+@import '../../widgets/title';
+@import '../../widgets/page';
+
+/* 焦点图 */
+.main-slider {
+  min-height: 220px;
+}
+/* 产品中心 */
+.item {
+  margin-top: 50px;
+  .main-tt {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    h1 {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+  &__crumbs {
+    float: right;
+    display: inline-block;
+    line-height: 63px;
+    font-size: 0;
+    & > * {
+      display: inline-block;
+      margin: 0 5px;
+      font-size: 12px;
+      color: #b4b4b4;
+      &:before {
+        content: '>';
+        margin: 0 10px 0 0;
+      }
+      &:first-child {
+        &:before {
+          content: '';
+          margin: 0;
+        }
+      }
+    }
+    a {
+      color: #b4b4b4;
+      &:hover {
+        color: #29c077;
+      }
+    }
+  }
+  &__left {
+    float: left;
+  }
+  &__right {
+    box-sizing: border-box;
+    padding-left: 60px;
+    float: right;
+    width: 768px;
+  }
+  &__ct {
+    margin-top: 35px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  &__picture {
+    float: left;
+    margin-right: 40px;
+    box-shadow: 0 0 10px #e3e3e3;
+    box-sizing: border-box;
+    border: 1px solid #f3f3f3;
+    width: 313px;
+    height: 232px;
+    vertical-align: bottom;
+    img {
+      width: 100%;
+      height: 100%;
+      vertical-align: bottom;
+    }
+  }
+  &__detail {
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    line-height: 24px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+  }
+  &__detail-tt {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #29c077;
+  }
+  &__detail-ct {
+    font-size: 14px;
+    color: #000;
+  }
+  &__table {
+    margin-top: 50px;
+    caption {
+      position: relative;
+      top: 2px; // chrome 1px; ff 2px;
+      height: 36px;
+      line-height: 36px;
+      background: #29c077;
+      color: #fff;
+      font-size: 14px;
+      text-indent: 1em;
+    }
+    td {
+      border: 1px solid #d6d6d6;
+    }
+    &-tt {
+      width: 80px;
+      text-align: center;
+      color: #29c077;
+      font-size: 16px;
+    }
+    &-ct {
+      font-size: 12px;
+      line-height: 24px;
+      padding: 20px;
+    }
+  }
+}

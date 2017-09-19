@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>产品中心 | 绿洁雅</title>
+  <title>产品详情 | 绿洁雅</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <!--[if lte IE 9]><script src="./libs/html5.js"></script><![endif]-->
   <link rel="stylesheet" href="./style/base.css">
-  <link rel="stylesheet" href="./style/product.css">
+  <link rel="stylesheet" href="./style/item.css">
 </head>
 
 <body>
@@ -51,9 +51,9 @@
     </div>
   </section>
   <!-- 产品中心 -->
-  <section class="product clearfix">
+  <section class="item clearfix">
     <div class="mid-wrap">
-      <div class="product__left">
+      <div class="item__left">
         <!-- 分类 -->
         <aside class="cate">
     <h3>分类</h3>
@@ -82,31 +82,37 @@
   </address>
       </div>
       <!-- 产品中心 -->
-      <div class="product__right">
+      <div class="item__right">
         <div class="main-tt">
           <h1>产品中心</h1>
           <span>PRODUCT</span>
+          <ul class="item__crumbs">
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./product.html">产品中心</a></li>
+            <li>建筑类产品</li>
+          </ul>
         </div>
-        <div class="product__ct">
-          <!-- 产品 -->
-          <ul class="list">
-  
-    <li class="item"><a href="./item.html"><img src="./images/index/slider_01.jpg" alt=""><span>光触媒全净味</span></a></li>
-  
-    <li class="item"><a href="./item.html"><img src="./images/index/slider_01.jpg" alt=""><span>绿洁雅除醛王</span></a></li>
-  
-</ul>
-          <!-- 分页 -->
-          <div class="page">
-  <a href="" class="page__item page__item--prev">上一页</a>
-  <a href="?page=1" class="page__item">1</a>
-  <a href="?page=2" class="page__item page__item--on">2</a>
-  <a href="?page=3" class="page__item">3</a>
-  <a href="?page=4" class="page__item">4</a>
-  <a class="page__item page__item--more">...</a>
-  <a href="?page=10" class="page__item">10</a>
-  <a class="page__item page__item--next page__item--off">下一页</a>
-</div>
+        <div class="item__ct">
+          <dl class="clearfix">
+            <dt class="item__picture"><img src="./images/index/slider_01.jpg" alt=""></dt>
+            <dd class="item__detail">
+              <h4 class="item__detail-tt">光触媒全味净</h4>
+              <p class="item__detail-ct">光触媒本身是一种催化剂，不直接参与降解反应，它通过吸收光能把水或氧气转化成强氧化活性基团，而强氧化活性基团使空气污染物降解；本产品加入了特殊矿物质钛（Ti），能和紫外线光一样激活全味净中的二氧化钛，从而使全味净能在有光或无光的情况下都起作用。能有效清除、分解室内各类装修材料和家具中的含有甲醛 、苯、TVOC等污染物；此产品安全、无二次污染。</p>
+            </dd>
+          </dl>
+          <table class="item__table">
+            <caption>产品详情</caption>
+            <tbody>
+              <tr>
+                <td class="item__table-tt">用途</td>
+                <td class="item__table-ct">可对各类装修材料和家具中甲醛、苯、甲苯、二甲苯、氨、TVOC等污染物有效地降解，具有高效广泛的消毒性能，能将细菌或真菌释放出的毒素分解及无害化处理</td>
+              </tr>
+              <tr>
+                <td class="item__table-tt">范围</td>
+                <td class="item__table-ct">装修材料、家具和一切板材中的甲醛</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -121,7 +127,7 @@
   <script src="./js/base.js"></script>
   <script src="./libs/jquery-1.12.4.min.js"></script>
   <script src="./libs/jquery.SuperSlide.2.1.1.js"></script>
-  <script src="./js/product.js"></script>
+  <script src="./js/item.js"></script>
 </body>
 
 </html>

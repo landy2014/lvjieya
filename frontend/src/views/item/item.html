@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  @@include("head.html", { "title": "产品详情 | 绿洁雅", "cssname": "item" })
+</head>
+
+<body>
+  <!-- 顶部 -->
+  @@include("top.html")
+  <!-- 头部 -->
+  @@include("header.html", { "nav" : 4 })
+  <!-- 焦点图 -->
+  <section class="main-slider">
+    <div class="mid-wrap">
+      <div class="main-slider__ct">
+        <div class="main-slider__bd">
+          <ul>
+            <li class="main-slider__item"><a href=""><img src="./images/index/slider_01.jpg" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="main-slider__hd">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 产品中心 -->
+  <section class="item clearfix">
+    <div class="mid-wrap">
+      <div class="item__left">
+        <!-- 分类 -->
+        @@include('cate.html', { "cate_on": "建筑类产品", "cate": ["汽车内产品","汽车内产品","汽车内产品","汽车内产品"] })
+        <!-- 联系我们 -->
+        @@include('address.html')
+      </div>
+      <!-- 产品中心 -->
+      <div class="item__right">
+        <div class="main-tt">
+          <h1>产品中心</h1>
+          <span>PRODUCT</span>
+          <ul class="item__crumbs">
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./product.html">产品中心</a></li>
+            <li>建筑类产品</li>
+          </ul>
+        </div>
+        <div class="item__ct">
+          <dl class="clearfix">
+            <dt class="item__picture"><img src="./images/index/slider_01.jpg" alt=""></dt>
+            <dd class="item__detail">
+              <h4 class="item__detail-tt">光触媒全味净</h4>
+              <p class="item__detail-ct">光触媒本身是一种催化剂，不直接参与降解反应，它通过吸收光能把水或氧气转化成强氧化活性基团，而强氧化活性基团使空气污染物降解；本产品加入了特殊矿物质钛（Ti），能和紫外线光一样激活全味净中的二氧化钛，从而使全味净能在有光或无光的情况下都起作用。能有效清除、分解室内各类装修材料和家具中的含有甲醛 、苯、TVOC等污染物；此产品安全、无二次污染。</p>
+            </dd>
+          </dl>
+          <table class="item__table">
+            <caption>产品详情</caption>
+            <tbody>
+              <tr>
+                <td class="item__table-tt">用途</td>
+                <td class="item__table-ct">可对各类装修材料和家具中甲醛、苯、甲苯、二甲苯、氨、TVOC等污染物有效地降解，具有高效广泛的消毒性能，能将细菌或真菌释放出的毒素分解及无害化处理</td>
+              </tr>
+              <tr>
+                <td class="item__table-tt">范围</td>
+                <td class="item__table-ct">装修材料、家具和一切板材中的甲醛</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 底部 -->
+  @@include("footer.html")
+  <!-- script -->
+  @@include("script.html", { "jsname": "item"})
+</body>
+
+</html>
