@@ -1,0 +1,1 @@
+{dede:arctype filed='content' /}

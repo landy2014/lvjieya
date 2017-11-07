@@ -1,0 +1,1 @@
+{dede:channel field='content' /}

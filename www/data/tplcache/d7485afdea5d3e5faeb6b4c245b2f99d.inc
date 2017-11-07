@@ -1,0 +1,1 @@
+{dede:arctype field='content' /}
