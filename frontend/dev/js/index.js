@@ -13,3 +13,7 @@ $('#j_mainSlider').slide({
   autoPlay: true,
   autoPage: '<li class="main-slider__hd-li"></li>'
 });
+$('.aside-kefu__close').on('click', function(e){
+  e.preventDefault();
+  $('.aside-kefu').toggleClass('closed');
+});
